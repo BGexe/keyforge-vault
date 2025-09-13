@@ -1,0 +1,24 @@
+# KeyForge Vault - Archivos sensibles
+passwords.bin
+encryption_key.key
+*.key
+*.bin
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
