@@ -55,11 +55,11 @@ pip install -r requirements.txt
 cd keyforge-vault
 
 # Ejecutar la aplicación principal
-python keyforge_vault.py
+python KeyForgeVault.py
 
 # O hacer el script ejecutable (Linux/Mac)
-chmod +x keyforge_vault.py
-python keyforge_vault.py
+chmod +x KeyForgeVault.py
+python KeyForgeVault.py
 ```
 ## 🎯 Guía de Uso
 
@@ -134,7 +134,7 @@ decrypted_password = cipher_suite.decrypt(encrypted_data).decode()
 ```text
 keyforge-vault/
 │
-├── keyforge_vault.py          # Aplicación principal
+├── KeyForgeVault.py          # Aplicación principal
 ├── encryption_key.key         # Clave de encriptación
 ├── passwords.bin              # Contraseñas encriptadas
 ├── requirements.txt           # Dependencias del proyecto
